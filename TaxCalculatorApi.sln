@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculatorApi", "TaxCalculatorApi\TaxCalculatorApi.csproj", "{0DA5EDE8-6AF7-4F8D-AE0C-E25B00C8C624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxCalculatorApiTest", "TaxCalculatorApiTest\TaxCalculatorApiTest.csproj", "{B3E71330-3A8C-484D-9052-FDD1EBFCF87B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DA5EDE8-6AF7-4F8D-AE0C-E25B00C8C624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA5EDE8-6AF7-4F8D-AE0C-E25B00C8C624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA5EDE8-6AF7-4F8D-AE0C-E25B00C8C624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA5EDE8-6AF7-4F8D-AE0C-E25B00C8C624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3E71330-3A8C-484D-9052-FDD1EBFCF87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E71330-3A8C-484D-9052-FDD1EBFCF87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E71330-3A8C-484D-9052-FDD1EBFCF87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E71330-3A8C-484D-9052-FDD1EBFCF87B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
