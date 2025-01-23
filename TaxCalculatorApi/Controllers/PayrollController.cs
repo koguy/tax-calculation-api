@@ -5,7 +5,7 @@ using TaxCalculatorApi.Services.Interfaces;
 
 namespace TaxCalculatorApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/payrolls")]
     [ApiController]
     public class PayrollController : ControllerBase
     {
@@ -15,7 +15,7 @@ namespace TaxCalculatorApi.Controllers
             _payrollService = payrollService;
         }
 
-        [HttpPost]
+        [HttpPost("calculate")]
         public ActionResult<PayrollDto> CalculatePayroll([FromBody]int grossAnnualSalary)
         {
             return Ok(_payrollService.GetPayrollInfo(grossAnnualSalary));
