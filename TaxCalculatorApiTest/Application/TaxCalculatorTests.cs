@@ -1,9 +1,9 @@
 ﻿using Moq;
 using TaxCalculatorApi.DAL.Interfaces;
-using TaxCalculatorApi.Domain;
+using TaxCalculatorApi.Application;
 using TaxCalculatorApi.Repository.Entity;
 
-namespace TaxCalculatorApiTest.Domain
+namespace TaxCalculatorApiTest.Application
 {
     public class TaxCalculatorTests
     {

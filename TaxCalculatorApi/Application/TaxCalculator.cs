@@ -1,8 +1,9 @@
-﻿using TaxCalculatorApi.DAL.Interfaces;
+﻿using TaxCalculatorApi.Application.Services.Interfaces;
+using TaxCalculatorApi.DAL.Interfaces;
 using TaxCalculatorApi.Repository;
 using TaxCalculatorApi.Repository.Entity;
 
-namespace TaxCalculatorApi.Domain
+namespace TaxCalculatorApi.Application
 {
     public class TaxCalculator : ITaxCalculator
     {

@@ -1,9 +1,9 @@
-﻿using TaxCalculatorApi.Domain.Entities;
+﻿using TaxCalculatorApi.Application.Services.Interfaces;
+using TaxCalculatorApi.Domain.Entities;
 using TaxCalculatorApi.Dtos;
 using TaxCalculatorApi.Exceptions;
-using TaxCalculatorApi.Services.Interfaces;
 
-namespace TaxCalculatorApi.Services
+namespace TaxCalculatorApi.Application.Services
 {
     public class PayrollService : IPayrollService
     {

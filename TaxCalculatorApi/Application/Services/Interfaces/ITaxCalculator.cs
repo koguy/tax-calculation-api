@@ -1,4 +1,4 @@
-﻿namespace TaxCalculatorApi.Domain
+﻿namespace TaxCalculatorApi.Application.Services.Interfaces
 {
     public interface ITaxCalculator
     {

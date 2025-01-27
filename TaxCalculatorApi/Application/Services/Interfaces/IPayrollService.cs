@@ -1,6 +1,6 @@
 ﻿using TaxCalculatorApi.Dtos;
 
-namespace TaxCalculatorApi.Services.Interfaces
+namespace TaxCalculatorApi.Application.Services.Interfaces
 {
     public interface IPayrollService
     {

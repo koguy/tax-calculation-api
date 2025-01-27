@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using TaxCalculatorApi.Application.Services.Interfaces;
 using TaxCalculatorApi.Dtos;
-using TaxCalculatorApi.Services.Interfaces;
 
 namespace TaxCalculatorApi.Controllers
 {

@@ -1,7 +1,6 @@
-﻿using TaxCalculatorApi.Domain;
-using TaxCalculatorApi.Services.Interfaces;
+﻿using TaxCalculatorApi.Application.Services.Interfaces;
 
-namespace TaxCalculatorApi.Services
+namespace TaxCalculatorApi.Application.Services
 {
     public class TaxService : ITaxService
     {

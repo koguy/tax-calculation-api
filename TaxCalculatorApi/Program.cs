@@ -1,13 +1,13 @@
 using Microsoft.EntityFrameworkCore;
+using TaxCalculatorApi.Application;
+using TaxCalculatorApi.Application.Services;
+using TaxCalculatorApi.Application.Services.Interfaces;
 using TaxCalculatorApi.Config;
 using TaxCalculatorApi.DAL;
 using TaxCalculatorApi.DAL.Interfaces;
-using TaxCalculatorApi.Domain;
 using TaxCalculatorApi.ExceptionHandlers;
 using TaxCalculatorApi.Repository;
 using TaxCalculatorApi.Repository.Interfaces;
-using TaxCalculatorApi.Services;
-using TaxCalculatorApi.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 

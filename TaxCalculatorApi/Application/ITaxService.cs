@@ -1,4 +1,4 @@
-﻿namespace TaxCalculatorApi.Services.Interfaces
+﻿namespace TaxCalculatorApi.Application
 {
     public interface ITaxService
     {
